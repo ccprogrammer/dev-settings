@@ -1,5 +1,7 @@
 # git-settings
 
+## INSTALLING GIT 
+
 1. install git
 > https://git-scm.com/downloads
 
@@ -32,3 +34,9 @@ note: for enter passphrase just empty it
 
 ![image](https://user-images.githubusercontent.com/90954993/209432378-e1745cbe-d7ba-4a28-93b9-05a4497832a8.png)
 
+
+## SYNCHING MS VISUAL STUDIO CODE CONFIG
+
+1. install Settings Sync extension from author Shan Khan
+2. press f1 and choose download settings to download stored settings
+3. choose update/upload to upload new settings
