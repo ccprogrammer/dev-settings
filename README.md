@@ -1,4 +1,4 @@
-# git-settings
+# DEV SETUP SETTINGS
 
 ## INSTALLING GIT 
 
@@ -40,3 +40,25 @@ note: for enter passphrase just empty it
 1. install Settings Sync extension from author Shan Khan
 2. press f1 and choose download settings to download stored settings
 3. choose update/upload to upload new settings
+
+## SETTING FLUTTER PATH
+1. check what shell you are using with
+> echo $SHELL
+2. open the shell
+>  If you’re using Bash, edit $HOME/.bash_profile or $HOME/.bashrc. If you’re using Z shell, edit $HOME/.zshrc
+3. add flutter/bin path to rc file 
+> export PATH="$PATH:$HOME/flutter/bin"
+4. run source
+> source $HOME/.<rc file>
+
+## Installing cocoapods
+
+1. Run following command
+> brew cleanup -d -v 
+> brew install cocoapods 
+Note: If you see failed to link then run brew link cocoapods
+
+If linking is getting failed then run
+
+> brew link --overwrite cocoapods
+
